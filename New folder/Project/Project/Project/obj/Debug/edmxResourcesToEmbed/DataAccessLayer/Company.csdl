@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CompanyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="CompanyModel.Customer" />
+    <EntitySet Name="Materials" EntityType="CompanyModel.Material" />
+    <EntitySet Name="Orders" EntityType="CompanyModel.Order" />
+    <EntitySet Name="OrderProducts" EntityType="CompanyModel.OrderProduct" />
+    <EntitySet Name="Products" EntityType="CompanyModel.Product" />
+    <EntitySet Name="Productions" EntityType="CompanyModel.Production" />
+    <EntitySet Name="ProductionMaterials" EntityType="CompanyModel.ProductionMaterial" />
+    <EntitySet Name="Suppliers" EntityType="CompanyModel.Supplier" />
+    <AssociationSet Name="FK_Order_Customer" Association="CompanyModel.FK_Order_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Order" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductionMaterial_Material" Association="CompanyModel.FK_ProductionMaterial_Material">
+      <End Role="Material" EntitySet="Materials" />
+      <End Role="ProductionMaterial" EntitySet="ProductionMaterials" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderProduct_Order" Association="CompanyModel.FK_OrderProduct_Order">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="OrderProduct" EntitySet="OrderProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderProduct_Product" Association="CompanyModel.FK_OrderProduct_Product">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="OrderProduct" EntitySet="OrderProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductionMaterial_Production" Association="CompanyModel.FK_ProductionMaterial_Production">
+      <End Role="Production" EntitySet="Productions" />
+      <End Role="ProductionMaterial" EntitySet="ProductionMaterials" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Production_Product" Association="CompanyModel.FK_Production_Product">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Production" EntitySet="Productions" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNum1" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNum2" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Depit" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Orders" Relationship="CompanyModel.FK_Order_Customer" FromRole="Customer" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Material">
+    <Key>
+      <PropertyRef Name="MeterialId" />
+    </Key>
+    <Property Name="MeterialId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Descripion" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="PricePerKilo" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Quantity" Type="Double" />
+    <NavigationProperty Name="ProductionMaterials" Relationship="CompanyModel.FK_ProductionMaterial_Material" FromRole="Material" ToRole="ProductionMaterial" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FK_CutomerId" Type="Int32" Nullable="false" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TotalCost" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Customer" Relationship="CompanyModel.FK_Order_Customer" FromRole="Order" ToRole="Customer" />
+    <NavigationProperty Name="OrderProducts" Relationship="CompanyModel.FK_OrderProduct_Order" FromRole="Order" ToRole="OrderProduct" />
+  </EntityType>
+  <EntityType Name="OrderProduct">
+    <Key>
+      <PropertyRef Name="OrderProductId" />
+    </Key>
+    <Property Name="OrderProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_OrderId" Type="Int32" Nullable="false" />
+    <Property Name="FK_ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="CompanyModel.FK_OrderProduct_Order" FromRole="OrderProduct" ToRole="Order" />
+    <NavigationProperty Name="Product" Relationship="CompanyModel.FK_OrderProduct_Product" FromRole="OrderProduct" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Wieght" Type="Double" />
+    <Property Name="PricePerUnit" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Quantity" Type="Int32" />
+    <NavigationProperty Name="OrderProducts" Relationship="CompanyModel.FK_OrderProduct_Product" FromRole="Product" ToRole="OrderProduct" />
+    <NavigationProperty Name="Productions" Relationship="CompanyModel.FK_Production_Product" FromRole="Product" ToRole="Production" />
+  </EntityType>
+  <EntityType Name="Production">
+    <Key>
+      <PropertyRef Name="ProductionId" />
+    </Key>
+    <Property Name="ProductionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_ProductId" Type="Int32" Nullable="false" />
+    <Property Name="ProductionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ProductionMaterials" Relationship="CompanyModel.FK_ProductionMaterial_Production" FromRole="Production" ToRole="ProductionMaterial" />
+    <NavigationProperty Name="Product" Relationship="CompanyModel.FK_Production_Product" FromRole="Production" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="ProductionMaterial">
+    <Key>
+      <PropertyRef Name="ProductionMaterialId" />
+    </Key>
+    <Property Name="ProductionMaterialId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FK_ProductionId" Type="Int32" Nullable="false" />
+    <Property Name="FK_MaterialId" Type="Int32" Nullable="false" />
+    <Property Name="Percentage" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Material" Relationship="CompanyModel.FK_ProductionMaterial_Material" FromRole="ProductionMaterial" ToRole="Material" />
+    <NavigationProperty Name="Production" Relationship="CompanyModel.FK_ProductionMaterial_Production" FromRole="ProductionMaterial" ToRole="Production" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="SupplierId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Credit" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Depit" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <Association Name="FK_Order_Customer">
+    <End Type="CompanyModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="CompanyModel.Order" Role="Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="FK_CutomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductionMaterial_Material">
+    <End Type="CompanyModel.Material" Role="Material" Multiplicity="1" />
+    <End Type="CompanyModel.ProductionMaterial" Role="ProductionMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Material">
+        <PropertyRef Name="MeterialId" />
+      </Principal>
+      <Dependent Role="ProductionMaterial">
+        <PropertyRef Name="FK_MaterialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderProduct_Order">
+    <End Type="CompanyModel.Order" Role="Order" Multiplicity="1" />
+    <End Type="CompanyModel.OrderProduct" Role="OrderProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="OrderProduct">
+        <PropertyRef Name="FK_OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderProduct_Product">
+    <End Type="CompanyModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="CompanyModel.OrderProduct" Role="OrderProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="OrderProduct">
+        <PropertyRef Name="FK_ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductionMaterial_Production">
+    <End Type="CompanyModel.Production" Role="Production" Multiplicity="1" />
+    <End Type="CompanyModel.ProductionMaterial" Role="ProductionMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Production">
+        <PropertyRef Name="ProductionId" />
+      </Principal>
+      <Dependent Role="ProductionMaterial">
+        <PropertyRef Name="FK_ProductionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Production_Product">
+    <End Type="CompanyModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="CompanyModel.Production" Role="Production" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="Production">
+        <PropertyRef Name="FK_ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

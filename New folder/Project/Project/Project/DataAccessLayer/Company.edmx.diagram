@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb410edc6efd47e39d4cd5a369877fc7" Name="Diagram1">
+        <EntityTypeShape EntityType="CompanyModel.Customer" Width="1.5" PointX="2.75" PointY="5" />
+        <EntityTypeShape EntityType="CompanyModel.Material" Width="1.5" PointX="0.75" PointY="0.875" />
+        <EntityTypeShape EntityType="CompanyModel.Order" Width="1.5" PointX="5" PointY="5" />
+        <EntityTypeShape EntityType="CompanyModel.OrderProduct" Width="1.5" PointX="7.25" PointY="5.125" />
+        <EntityTypeShape EntityType="CompanyModel.Product" Width="1.5" PointX="5" PointY="9" />
+        <EntityTypeShape EntityType="CompanyModel.Production" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="CompanyModel.ProductionMaterial" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="CompanyModel.Supplier" Width="1.5" PointX="5.75" PointY="0.75" />
+        <AssociationConnector Association="CompanyModel.FK_Order_Customer" />
+        <AssociationConnector Association="CompanyModel.FK_ProductionMaterial_Material" />
+        <AssociationConnector Association="CompanyModel.FK_OrderProduct_Order" />
+        <AssociationConnector Association="CompanyModel.FK_OrderProduct_Product" />
+        <AssociationConnector Association="CompanyModel.FK_ProductionMaterial_Production" />
+        <AssociationConnector Association="CompanyModel.FK_Production_Product" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

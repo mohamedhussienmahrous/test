@@ -1,0 +1,93 @@
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\bin\Debug\Project.exe.config
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\bin\Debug\Project.exe
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\bin\Debug\Project.pdb
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\bin\Debug\ar\Project.resources.dll
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_CustomerMakeOrder.resources
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Material.resources
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_MaterialInventory.resources
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Product.resources
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.Properties.Resources.resources
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Product.ar.resources
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\ar\Project.resources.dll
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.exe
+c:\users\toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.pdb
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Matrial_Inventory_MAngment.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Production_Operation.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Production_Operation_Mangment.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Product_Mangment.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.MAIN_FRM.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Customer_Mangments.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_customers.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Customer_acc_mangmentcs.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Customer_Order_Mangment.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Supplier.resources
+C:\Users\Toty\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.BL.FRM_Sublier_Mangment.resources
+D:\Project\Project\bin\Debug\Project.exe.config
+D:\Project\Project\obj\Debug\Project.exe
+D:\Project\Project\obj\Debug\Project.pdb
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\bin\Debug\Project.exe.config
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.exe
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.pdb
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\bin\Debug\Project.exe
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\bin\Debug\Project.pdb
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\bin\Debug\ar\Project.resources.dll
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\bin\Debug\EntityFramework.dll
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\bin\Debug\EntityFramework.xml
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_CustomerMakeOrder.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Customer_acc_mangmentcs.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Customer_Mangments.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Material.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_MaterialInventory.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Matrial_Inventory_MAngment.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Product.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Production_Operation.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Production_Operation_Mangment.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Product_Mangment.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_customers.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Customer_Order_Mangment.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Sublier_Mangment.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Supplier.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.MAIN_FRM.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.BL.FRM_Product.ar.resources
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\The-Disaster\Source\Repos\MyFirstProject\Project\Project\obj\Debug\ar\Project.resources.dll
+C:\Users\The-Disaster\Source\Repos\Company3\Project\Project\bin\Debug\Project.exe.config
+C:\Users\The-Disaster\Source\Repos\Company3\Project\Project\obj\Debug\Project.exe
+C:\Users\The-Disaster\Source\Repos\Company3\Project\Project\obj\Debug\Project.pdb
+E:\Project\Project\bin\Debug\Project.exe.config
+E:\Project\Project\obj\Debug\Project.exe
+E:\Project\Project\obj\Debug\Project.pdb
+C:\Users\Toty\Documents\Visual Studio 2015\Projects\Project\Project\bin\Debug\EntityFramework.dll
+C:\Users\Toty\Documents\Visual Studio 2015\Projects\Project\Project\bin\Debug\EntityFramework.xml
+E:\Project\Project\Project\bin\Debug\Project.exe.config
+E:\Project\Project\Project\obj\Debug\Project.exe
+E:\Project\Project\Project\obj\Debug\Project.pdb
+E:\Project\Project\Project\bin\Debug\Project.exe
+E:\Project\Project\Project\bin\Debug\Project.pdb
+E:\Project\Project\Project\bin\Debug\ar\Project.resources.dll
+E:\Project\Project\Project\bin\Debug\EntityFramework.dll
+E:\Project\Project\Project\bin\Debug\EntityFramework.xml
+E:\Project\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_CustomerMakeOrder.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Customer_acc_mangmentcs.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Customer_Mangments.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Material.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_MaterialInventory.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Matrial_Inventory_MAngment.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Product.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Production_Operation.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Production_Operation_Mangment.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Product_Mangment.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_customers.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Customer_Order_Mangment.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Sublier_Mangment.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Supplier.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.MAIN_FRM.resources
+E:\Project\Project\Project\obj\Debug\Project.Properties.Resources.resources
+E:\Project\Project\Project\obj\Debug\Project.BL.FRM_Product.ar.resources
+E:\Project\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+E:\Project\Project\Project\obj\Debug\ar\Project.resources.dll
