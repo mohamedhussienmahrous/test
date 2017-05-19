@@ -1,0 +1,91 @@
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.AddEmploye.resources
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Welcome.resources
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Invoice.resources
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Properties.Resources.resources
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\bin\Debug\ShopSeller.pdb
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.exe
+c:\users\mohamed.mahrouse\documents\visual studio 2010\Projects\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.pdb
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.exe
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.pdb
+F:\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe
+F:\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.pdb
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.AddEmploye.resources
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Stock.resources
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Welcome.resources
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Invoice.resources
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Properties.Resources.resources
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Item.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.exe
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.pdb
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.pdb
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.AddEmploye.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Item.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Stock.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Welcome.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Invoice.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Properties.Resources.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchInvoice.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchItem.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchStock.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateEmployes.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateItem.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateStock.resources
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.csproj.GenerateResource.Cache
+C:\Users\mohamed.mahrouse\Desktop\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.csprojResolveAssemblyReference.cache
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe.config
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.pdb
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.AddEmploye.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Item.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchInvoice.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchItem.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchStock.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Stock.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateEmployes.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateItem.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateStock.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Welcome.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Invoice.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Properties.Resources.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.csproj.GenerateResource.Cache
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.exe
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.pdb
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.csprojResolveAssemblyReference.cache
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.DeleteEmployee.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.DeleteStock.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.DeleteItem.resources
+C:\Users\mohamed.mahrouse\Desktop\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Search.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe.config
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.exe
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.pdb
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.pdb
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.csprojResolveAssemblyReference.cache
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.AddEmploye.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.DeleteEmployee.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.DeleteItem.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.DeleteStock.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Item.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Search.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchInvoice.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchItem.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.SearchStock.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Stock.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateEmployes.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateItem.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.UpdateStock.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Welcome.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Invoice.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.Properties.Resources.resources
+D:\Cources\Courses\Flash\ShopTwoTiers\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.csproj.GenerateResource.Cache
+E:\Shop\ShopSeller\ShopSeller\bin\Debug\ShopSeller.exe.config
+E:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.exe
+E:\Shop\ShopSeller\ShopSeller\obj\x86\Debug\ShopSeller.pdb

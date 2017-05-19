@@ -1,0 +1,47 @@
+DECLARE @h int 
+DECLARE @xmldoc nVARCHAR(max) 
+--xmldoc is set with the xml elements which are to be inserted into the table students with FirstName,ID,Technology as table columns 
+
+select @xmldoc =
+'<NewDataSet>
+  <Inv_Item>
+    <Inv_ID>INV-1</Inv_ID>
+    <Item_ID>0</Item_ID>
+    <Quantity>12</Quantity>
+    <Price>1500.0000</Price>
+    <Total>18000</Total>
+  </Inv_Item>
+  <Inv_Item>
+    <Inv_ID>INV-1</Inv_ID>
+    <Item_ID>0</Item_ID>
+    <Quantity>15</Quantity>
+    <Price>1500.0000</Price>
+    <Total>22500</Total>
+  </Inv_Item>
+  <Inv_Item>
+    <Inv_ID>INV-1</Inv_ID>
+    <Item_ID>1</Item_ID>
+    <Quantity>25</Quantity>
+    <Price>1500.0000</Price>
+    <Total>37500</Total>
+  </Inv_Item>
+  <Inv_Item>
+    <Inv_ID>INV-1</Inv_ID>
+    <Item_ID>1</Item_ID>
+    <Quantity>1</Quantity>
+    <Price>1500.0000</Price>
+    <Total>1500</Total>
+  </Inv_Item>
+</NewDataSet>' 
+
+EXEC sp_xml_preparedocument @h OUTPUT, @xmldoc 
+
+--This sp_xml_preparedocument is internal server SP (pseudo SP). which takes the xmldoc as input and gives an output in @h which contains the data which is to be manipulated further 
+
+update Inv_Item 
+set 
+Inv_Item.Quantity= x.Quantity
+FROM OpenXML(@h,'/NewDataSet/Inv_Item',2) 
+WITH (Inv_ID nvarchar(50),Item_ID decimal ,Quantity decimal ,Price decimal ,Total decimal )  x where Inv_Item.Inv_ID=x.Inv_ID --and Inv_Item.Item_ID=x.Item_ID
+EXEC sp_xml_removedocument @h
+

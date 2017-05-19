@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Shop" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IShop_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_AddEmploye_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddEmploye" />
+  </wsdl:message>
+  <wsdl:message name="IShop_AddEmploye_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddEmployeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_AddStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStock" />
+  </wsdl:message>
+  <wsdl:message name="IShop_AddStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_AddItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddItem" />
+  </wsdl:message>
+  <wsdl:message name="IShop_AddItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillEmployes_InputMessage">
+    <wsdl:part name="parameters" element="tns:FillEmployes" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillEmployes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FillEmployesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillStocks_InputMessage">
+    <wsdl:part name="parameters" element="tns:FillStocks" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillStocks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FillStocksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillItems_InputMessage">
+    <wsdl:part name="parameters" element="tns:FillItems" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillItems_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FillItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_CreateInvoiceCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateInvoiceCode" />
+  </wsdl:message>
+  <wsdl:message name="IShop_CreateInvoiceCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateInvoiceCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_InsertInvoiceData_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInvoiceData" />
+  </wsdl:message>
+  <wsdl:message name="IShop_InsertInvoiceData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInvoiceDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillInvoices_InputMessage">
+    <wsdl:part name="parameters" element="tns:FillInvoices" />
+  </wsdl:message>
+  <wsdl:message name="IShop_FillInvoices_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FillInvoicesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetInvoiceData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvoiceData" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetInvoiceData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInvoiceDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetAllEmployesData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEmployesData" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetAllEmployesData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEmployesDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetAllItemsData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllItemsData" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetAllItemsData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllItemsDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetAllStockssData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStockssData" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetAllStockssData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStockssDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateEmploye_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEmploye" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateEmploye_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEmployeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStock" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateEItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEItem" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateEItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateEItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateInvoiceXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInvoiceXML" />
+  </wsdl:message>
+  <wsdl:message name="IShop_UpdateInvoiceXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInvoiceXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteItem" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteStock_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStock" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteStock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteInvoice_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInvoice" />
+  </wsdl:message>
+  <wsdl:message name="IShop_DeleteInvoice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInvoiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetDBTables_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDBTables" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetDBTables_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDBTablesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetDBTableColumns_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDBTableColumns" />
+  </wsdl:message>
+  <wsdl:message name="IShop_GetDBTableColumns_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDBTableColumnsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_EmployeeSelect_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmployeeSelect" />
+  </wsdl:message>
+  <wsdl:message name="IShop_EmployeeSelect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmployeeSelectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IShop_ExecuteCommand_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteCommand" />
+  </wsdl:message>
+  <wsdl:message name="IShop_ExecuteCommand_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteCommandResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IShop">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetData" message="tns:IShop_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetDataResponse" message="tns:IShop_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetDataUsingDataContract" message="tns:IShop_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetDataUsingDataContractResponse" message="tns:IShop_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddEmploye">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/AddEmploye" message="tns:IShop_AddEmploye_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/AddEmployeResponse" message="tns:IShop_AddEmploye_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/AddStock" message="tns:IShop_AddStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/AddStockResponse" message="tns:IShop_AddStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/AddItem" message="tns:IShop_AddItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/AddItemResponse" message="tns:IShop_AddItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FillEmployes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/FillEmployes" message="tns:IShop_FillEmployes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/FillEmployesResponse" message="tns:IShop_FillEmployes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FillStocks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/FillStocks" message="tns:IShop_FillStocks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/FillStocksResponse" message="tns:IShop_FillStocks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FillItems">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/FillItems" message="tns:IShop_FillItems_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/FillItemsResponse" message="tns:IShop_FillItems_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateInvoiceCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/CreateInvoiceCode" message="tns:IShop_CreateInvoiceCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/CreateInvoiceCodeResponse" message="tns:IShop_CreateInvoiceCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInvoiceData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/InsertInvoiceData" message="tns:IShop_InsertInvoiceData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/InsertInvoiceDataResponse" message="tns:IShop_InsertInvoiceData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FillInvoices">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/FillInvoices" message="tns:IShop_FillInvoices_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/FillInvoicesResponse" message="tns:IShop_FillInvoices_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetInvoiceData" message="tns:IShop_GetInvoiceData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetInvoiceDataResponse" message="tns:IShop_GetInvoiceData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEmployesData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetAllEmployesData" message="tns:IShop_GetAllEmployesData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetAllEmployesDataResponse" message="tns:IShop_GetAllEmployesData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllItemsData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetAllItemsData" message="tns:IShop_GetAllItemsData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetAllItemsDataResponse" message="tns:IShop_GetAllItemsData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStockssData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetAllStockssData" message="tns:IShop_GetAllStockssData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetAllStockssDataResponse" message="tns:IShop_GetAllStockssData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEmploye">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/UpdateEmploye" message="tns:IShop_UpdateEmploye_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/UpdateEmployeResponse" message="tns:IShop_UpdateEmploye_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/UpdateStock" message="tns:IShop_UpdateStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/UpdateStockResponse" message="tns:IShop_UpdateStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/UpdateEItem" message="tns:IShop_UpdateEItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/UpdateEItemResponse" message="tns:IShop_UpdateEItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInvoiceXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/UpdateInvoiceXML" message="tns:IShop_UpdateInvoiceXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/UpdateInvoiceXMLResponse" message="tns:IShop_UpdateInvoiceXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/DeleteEmployee" message="tns:IShop_DeleteEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/DeleteEmployeeResponse" message="tns:IShop_DeleteEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/DeleteItem" message="tns:IShop_DeleteItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/DeleteItemResponse" message="tns:IShop_DeleteItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStock">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/DeleteStock" message="tns:IShop_DeleteStock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/DeleteStockResponse" message="tns:IShop_DeleteStock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInvoice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/DeleteInvoice" message="tns:IShop_DeleteInvoice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/DeleteInvoiceResponse" message="tns:IShop_DeleteInvoice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTables">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetDBTables" message="tns:IShop_GetDBTables_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetDBTablesResponse" message="tns:IShop_GetDBTables_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTableColumns">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/GetDBTableColumns" message="tns:IShop_GetDBTableColumns_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/GetDBTableColumnsResponse" message="tns:IShop_GetDBTableColumns_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EmployeeSelect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/EmployeeSelect" message="tns:IShop_EmployeeSelect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/EmployeeSelectResponse" message="tns:IShop_EmployeeSelect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteCommand">
+      <wsdl:input wsaw:Action="http://tempuri.org/IShop/ExecuteCommand" message="tns:IShop_ExecuteCommand_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IShop/ExecuteCommandResponse" message="tns:IShop_ExecuteCommand_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IShop" type="tns:IShop">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddEmploye">
+      <soap:operation soapAction="http://tempuri.org/IShop/AddEmploye" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStock">
+      <soap:operation soapAction="http://tempuri.org/IShop/AddStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddItem">
+      <soap:operation soapAction="http://tempuri.org/IShop/AddItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FillEmployes">
+      <soap:operation soapAction="http://tempuri.org/IShop/FillEmployes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FillStocks">
+      <soap:operation soapAction="http://tempuri.org/IShop/FillStocks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FillItems">
+      <soap:operation soapAction="http://tempuri.org/IShop/FillItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateInvoiceCode">
+      <soap:operation soapAction="http://tempuri.org/IShop/CreateInvoiceCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInvoiceData">
+      <soap:operation soapAction="http://tempuri.org/IShop/InsertInvoiceData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FillInvoices">
+      <soap:operation soapAction="http://tempuri.org/IShop/FillInvoices" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInvoiceData">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetInvoiceData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEmployesData">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetAllEmployesData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllItemsData">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetAllItemsData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStockssData">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetAllStockssData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEmploye">
+      <soap:operation soapAction="http://tempuri.org/IShop/UpdateEmploye" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStock">
+      <soap:operation soapAction="http://tempuri.org/IShop/UpdateStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateEItem">
+      <soap:operation soapAction="http://tempuri.org/IShop/UpdateEItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInvoiceXML">
+      <soap:operation soapAction="http://tempuri.org/IShop/UpdateInvoiceXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <soap:operation soapAction="http://tempuri.org/IShop/DeleteEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteItem">
+      <soap:operation soapAction="http://tempuri.org/IShop/DeleteItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStock">
+      <soap:operation soapAction="http://tempuri.org/IShop/DeleteStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInvoice">
+      <soap:operation soapAction="http://tempuri.org/IShop/DeleteInvoice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTables">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetDBTables" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDBTableColumns">
+      <soap:operation soapAction="http://tempuri.org/IShop/GetDBTableColumns" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EmployeeSelect">
+      <soap:operation soapAction="http://tempuri.org/IShop/EmployeeSelect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteCommand">
+      <soap:operation soapAction="http://tempuri.org/IShop/ExecuteCommand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Shop">
+    <wsdl:port name="BasicHttpBinding_IShop" binding="tns:BasicHttpBinding_IShop">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/ShopSellerBO/Shop/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

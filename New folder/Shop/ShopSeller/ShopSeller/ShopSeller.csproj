@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD93DE43-8C67-453C-971A-49B61A888517}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShopSeller</RootNamespace>
+    <AssemblyName>ShopSeller</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEmploye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmploye.Designer.cs">
+      <DependentUpon>AddEmploye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteEmployee.Designer.cs">
+      <DependentUpon>DeleteEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteItem.Designer.cs">
+      <DependentUpon>DeleteItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteStock.Designer.cs">
+      <DependentUpon>DeleteStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Item.Designer.cs">
+      <DependentUpon>Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchEmployee.Designer.cs">
+      <DependentUpon>SearchEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchInvoice.Designer.cs">
+      <DependentUpon>SearchInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchItem.Designer.cs">
+      <DependentUpon>SearchItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchStock.Designer.cs">
+      <DependentUpon>SearchStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEmployes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateEmployes.Designer.cs">
+      <DependentUpon>UpdateEmployes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateItem.Designer.cs">
+      <DependentUpon>UpdateItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStock.Designer.cs">
+      <DependentUpon>UpdateStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddEmploye.resx">
+      <DependentUpon>AddEmploye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteEmployee.resx">
+      <DependentUpon>DeleteEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteItem.resx">
+      <DependentUpon>DeleteItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteStock.resx">
+      <DependentUpon>DeleteStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Item.resx">
+      <DependentUpon>Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchInvoice.resx">
+      <DependentUpon>SearchInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchItem.resx">
+      <DependentUpon>SearchItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchStock.resx">
+      <DependentUpon>SearchStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateEmployes.resx">
+      <DependentUpon>UpdateEmployes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateItem.resx">
+      <DependentUpon>UpdateItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStock.resx">
+      <DependentUpon>UpdateStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ServiceReference2\service.wsdl" />
+    <None Include="Service References\ServiceReference2\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference2\ShopSeller.ServiceReference2.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
